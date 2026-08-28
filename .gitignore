@@ -39,3 +39,9 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# prisma generated client (regenerated via `prisma generate`, not source)
+/src/generated
+
+# kullanıcı tarafından yüklenen dosyalar (çalışma zamanı verisi, kaynak kod değil)
+/public/uploads
